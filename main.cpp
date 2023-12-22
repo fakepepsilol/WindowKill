@@ -70,7 +70,9 @@ int main() {
         CloseHandle(snapShot);
     }
     if (!process) {
+        char temp;
         std::cout << "No process found!";
+        std::cin >> temp;
         return 0;
     }
     std::printf("The process id: %d \n", id);
