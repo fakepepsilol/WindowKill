@@ -70,6 +70,7 @@ int main() {
         CloseHandle(snapShot);
     }
     if (!process) {
+        std::cout << "No process found!";
         return 0;
     }
     std::printf("The process id: %d \n", id);
@@ -101,6 +102,7 @@ int main() {
  
     Write(healthAddress, 2934750247);
     std::cout << Read(healthAddress);
-   
+    char temp;
+    std::cin >> temp;
 
 }
