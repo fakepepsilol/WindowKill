@@ -1,1 +1,1 @@
-"# WindowKill" 
+# WindowKill
